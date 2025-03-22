@@ -23,6 +23,7 @@ struct ContentView: View {
     }
     
     @State private var resultMessage = ""
+    @State private var players = ["Ellie", "Mike", "Will", "Lucas", "Sam", "Dustin"]
     
     var body: some View {
         VStack {
